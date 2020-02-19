@@ -4,7 +4,7 @@ A lua wrapper in lua
 
 
 example usage:
-
+```lua
 local Instance = Register(Instance)
 	Instance:Create("new", function(a1,a2)
 		if a1 == "RedPart" then
@@ -15,3 +15,4 @@ local Instance = Register(Instance)
 		end
 		return Instance.Raw.new(a1,a2)
 	end)
+```
